@@ -622,7 +622,7 @@ RegisterNetEvent('apartments:client:SetHomeBlip', function(home)
                 SetBlipCategory(Apartments.Locations[name].blip, 10)
             end
             SetBlipDisplay(Apartments.Locations[name].blip, 4)
-            SetBlipScale(Apartments.Locations[name].blip, 0.65)
+            SetBlipScale(Apartments.Locations[name].blip, 0.70)
             SetBlipAsShortRange(Apartments.Locations[name].blip, true)
             SetBlipColour(Apartments.Locations[name].blip, 3)
             AddTextEntry(Apartments.Locations[name].label, Apartments.Locations[name].label)
